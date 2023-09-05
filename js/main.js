@@ -14,7 +14,6 @@ btns.forEach((btn, index) => {
 
 function cleanClass(elems) {
   for (let elem of elems) {
-    console.log(elem)
     elem.classList.remove('active');
   }
 }
